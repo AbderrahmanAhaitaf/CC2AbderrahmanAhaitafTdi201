@@ -34,7 +34,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         onCreate(sqLiteDatabase);
     }
 
-    public long AddSociete(SQLiteDatabase db, Societe e){
+    public static long AddSociete(SQLiteDatabase db, Societe e){
         ContentValues cv = new ContentValues();
         cv.put(col1,e.getId());
         cv.put(col2,e.getNom());
@@ -50,7 +50,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     }
 
 
-    public long UpdateSociete(SQLiteDatabase db, Societe e){
+    public static long UpdateSociete(SQLiteDatabase db, Societe e){
         ContentValues cv = new ContentValues();
         cv.put(col1,e.getId());
         cv.put(col2,e.getNom());
