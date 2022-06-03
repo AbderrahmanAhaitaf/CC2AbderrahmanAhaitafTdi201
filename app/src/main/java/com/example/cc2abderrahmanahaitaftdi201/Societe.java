@@ -1,3 +1,5 @@
+package com.example.cc2abderrahmanahaitaftdi201;
+
 import java.io.StringBufferInputStream;
 
 public class Societe {
