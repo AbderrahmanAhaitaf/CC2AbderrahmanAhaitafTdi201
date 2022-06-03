@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CC2AbderrahmanAhaitafTdi201">
         <activity
+            android:name=".list_entreprise"
+            android:exported="false" />
+        <activity
+            android:name=".editer_entreprise"
+            android:exported="false" />
+        <activity
+            android:name=".ajouter_entreprise"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
